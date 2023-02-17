@@ -2,7 +2,7 @@
 
 A simple hangman game with neumorphic keyboards
 <br>
-"npm run dev" to start
+START WITH `npm run dev`
 <br>
 
 live preview: https://sprightly-boba-f10037.netlify.app 
