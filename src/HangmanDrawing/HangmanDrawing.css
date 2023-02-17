@@ -1,0 +1,97 @@
+.drawing-main {
+    position: relative;
+}
+
+/* BAR */
+.top-bar {
+    height: 10px;
+    width: 200px;
+    margin-left: 120px;
+    background: rgb(23, 2, 70);
+}
+
+.neck-bar {
+    height: 50px;
+    width: 10px;
+    background: rgb(23, 2, 70);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.vertical-bar {
+    height: 400px;
+    width: 10px;
+    background: rgb(23, 2, 70);
+    margin-left: 120px;
+}
+
+.bottom-bar {
+    height: 10px;
+    width: 250px;
+    background: rgb(23, 2, 70);
+}
+
+/* DYING PERSON */
+.person-head {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 10px solid rgb(23, 2, 70);
+    position: absolute;
+    top: 48px;
+    right: -30px;
+}
+
+.person-body {
+    width: 10px;
+    height: 100px;
+    background: rgb(23, 2, 70);
+    position: absolute;
+    top: 116px;
+    right: 0;
+}
+
+.person-right-arm {
+    width: 100px;
+    height: 10px;
+    background: rgb(23, 2, 70);
+    position: absolute;
+    top: 115px;
+    right: -95px;
+    rotate: 35deg;
+    transform-origin: left bottom;
+}
+
+.person-left-arm {
+    width: 100px;
+    height: 10px;
+    background: rgb(23, 2, 70);
+    position: absolute;
+    top: 108px;
+    right: -90px;
+    rotate: 145deg;
+    transform-origin: left bottom;
+}
+
+.person-right-leg {
+    width: 100px;
+    height: 10px;
+    background: rgb(23, 2, 70);
+    position: absolute;
+    top: 200px;
+    right: -90px;
+    rotate: 60deg;
+    transform-origin: left bottom;
+}
+
+.person-left-leg {
+    width: 100px;
+    height: 10px;
+    background: rgb(23, 2, 70);
+    position: absolute;
+    top: 200px;
+    right: -90px;
+    rotate: 130deg;
+    transform-origin: left bottom;
+}

@@ -1,0 +1,14 @@
+.word-main {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(23, 2, 70);
+}
+
+.letters {
+    border-bottom: 0.5rem solid rgb(23, 2, 70);
+    color: rgb(23, 2, 70);
+}
